@@ -1,5 +1,5 @@
 .sidebar {
-    background-color:blue;
+    background-color: #2F4F4F;
     height: 100vh;
     color: white;
     position: fixed;
@@ -9,6 +9,7 @@
 
 .content {
     height:300vh;
+    padding-left: 30px;
 }
 
 .footer {
