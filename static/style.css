@@ -1,16 +1,19 @@
-.left-bar {
+.sidebar {
     background-color:blue;
     height: 100vh;
     color: white;
+    position: fixed;
+    top: 0em;
+    left: 0em;
 }
 
-.right-bar {
-    height:100vh;
+.content {
+    height:300vh;
 }
 
 .footer {
-    background-color: darkgray;
-    height: 5vh;
+    position: absolute;
+    bottom: 0;
 }
 
 .img-circle {
