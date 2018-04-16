@@ -1,6 +1,7 @@
 .left-bar {
     background-color:blue;
     height:100vh;
+    color: white;
 }
 
 .right-bar {
@@ -9,4 +10,5 @@
 
 .footer {
     background-color: darkgray;
+    height:10vh;
 }
