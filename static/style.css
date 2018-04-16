@@ -4,6 +4,9 @@
 }
 
 .right-bar {
-    background-color: red;
     height:100vh;
+}
+
+.footer {
+    background-color: darkgray;
 }
