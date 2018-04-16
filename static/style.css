@@ -1,14 +1,14 @@
 .left-bar {
     background-color:blue;
-    height:100vh;
+    height:95vh;
     color: white;
 }
 
 .right-bar {
-    height:100vh;
+    height:95vh;
 }
 
 .footer {
     background-color: darkgray;
-    height:10vh;
+    height:5vh;
 }
