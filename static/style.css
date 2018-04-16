@@ -12,3 +12,12 @@
     background-color: darkgray;
     height:5vh;
 }
+
+.img-circle {
+    border-radius: 50%;
+    width: 80%;
+    margin: auto;
+    display: inline-block;
+    display: block;
+    margin-top: 10%;
+}
