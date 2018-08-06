@@ -1,5 +1,5 @@
 .sidebar {
-    background-color: #2F4F4F;
+    background-color: #c0dfed;
     height: 100vh;
     color: white;
     position: fixed;
@@ -24,4 +24,17 @@
     display: inline-block;
     display: block;
     margin-top: 10%;
+}
+
+.animate-area	{ 
+	background-image: url(https://davidwalsh.name/demo/bg-clouds.png);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+
+	animation: animatedBackground 40s linear infinite;
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
 }
