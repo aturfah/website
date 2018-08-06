@@ -1,5 +1,4 @@
 .sidebar {
-    background-color: #c0dfed;
     height: 100vh;
     color: white;
     position: fixed;
@@ -10,6 +9,7 @@
 .content {
     height:300vh;
     padding-left: 30px;
+    background-color: white;
 }
 
 .footer {
@@ -33,7 +33,11 @@
 	background-position: 0px 0px;
 	background-repeat: repeat-x;
 
-	animation: animatedBackground 40s linear infinite;
+	animation: animatedBackground 30s linear infinite;
+}
+
+body {
+    background-color: #c0dfed;
 }
 
 @keyframes animatedBackground {
