@@ -1,5 +1,6 @@
 body {
     background-color: #c0dfed;
+    width: 100%;
 }
 
 .sidebar {
@@ -37,12 +38,12 @@ body {
 	background-position: 0px 0px;
 	background-repeat: repeat-x;
 
-	animation: animatedBackground 30s linear infinite;
+	animation: animatedBackground 45s linear infinite;
 }
 
 @keyframes animatedBackground {
-	from { background-position: 0 0; }
-	to { background-position: 100% 0; }
+	from { background-position: 0px 0; }
+	to { background-position: -2247px 0; }
 }
 
 .url-list {
