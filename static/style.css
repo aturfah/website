@@ -27,7 +27,7 @@
 }
 
 .animate-area	{ 
-	background-image: url(https://davidwalsh.name/demo/bg-clouds.png);
+	background-image: url('./img/bg_clouds.png');
 	background-position: 0px 0px;
 	background-repeat: repeat-x;
 
