@@ -15,6 +15,7 @@ body {
     height:150vh;
     padding-left: 30px;
     background-color: white;
+    position: relative;
 }
 
 .footer {
@@ -30,13 +31,26 @@ body {
     margin: auto;
     display: inline-block;
     display: block;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
-.animate-area	{ 
+.animate-area-left	{ 
 	background-image: url('./img/bg_clouds.png');
-	background-position: 0px 0px;
+	background-position: top right;
 	background-repeat: repeat-x;
+
+	animation: animatedBackground 45s linear infinite;
+}
+
+.animate-area-right	{ 
+    height: 100vh;
+	background-image: url('./img/bg_clouds.png');
+	background-position: top right;
+	background-repeat: repeat-x;
+
+    position: fixed;
+    top: 0em;
+    right: 0em;
 
 	animation: animatedBackground 45s linear infinite;
 }
@@ -58,4 +72,5 @@ body {
     display: block;
     margin:0;
     padding:0;
+    font-size: 14pt;
 }
