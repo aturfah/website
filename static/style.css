@@ -38,3 +38,18 @@
 	from { background-position: 0 0; }
 	to { background-position: 100% 0; }
 }
+
+
+.url-list {
+    text-align: center;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    margin-top: 10px;
+}
+
+.url-list li {
+    display: block;
+    margin:0;
+    padding:0;
+}
