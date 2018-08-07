@@ -8,6 +8,10 @@ h1, h2, h3, h4 {
     font-family: 'Comfortaa', cursive;
 }
 
+h1 {
+    text-align: center;
+}
+
 .content {
     height:150vh;
     padding-left: 30px;
@@ -29,7 +33,7 @@ h1, h2, h3, h4 {
     margin: auto;
     display: inline-block;
     display: block;
-    margin-top: 15%;
+    margin-top: 7.5%;
 }
 
 .align-left {
@@ -73,7 +77,7 @@ h1, h2, h3, h4 {
     display: block;
     margin:0;
     padding:0;
-    font-size: 14pt;
+    font-size: 140%;
 }
 
 .project-panel {
@@ -93,7 +97,7 @@ h1, h2, h3, h4 {
     text-decoration: none;
 }
 
-.project-panel h3 {
+.project-panel h4 {
     padding: 0;
     margin: 0;
 }
