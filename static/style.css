@@ -1,6 +1,11 @@
 body {
     background-color: #c0dfed;
     width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Comfortaa', cursive;
 }
 
 .content {
