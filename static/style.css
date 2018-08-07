@@ -77,28 +77,15 @@ h1, h2, h3, h4 {
 }
 
 .project-panel {
-    width: 40%;
     border-style: solid;
     border-width: thin;
     border-color: gray;
-    display: inline-block;
-    text-align: center;
+    display: block;
     box-shadow: 5px 5px 5px lightgrey;
-    margin-top: 0;
-    margin-bottom: 3%;
-    padding-top: 5px;
-    padding-bottom: 5px;
     font-size: 10pt;
-}
-
-.project-panel-left {
-    margin-left: 5%;
+    margin-top: 3%;
     margin-right: 3%;
-}
-
-.project-panel-right {
-    margin-left: 3%;
-    margin-right: 5%;
+    padding: 1%;
 }
 
 .project-panel a, a:hover, a:visited, a:active {
