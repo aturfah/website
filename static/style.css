@@ -72,21 +72,20 @@ body {
 }
 
 .project-panel {
-    margin-top: 0;
-    width: 37%;
+    width: 40%;
     border-style: solid;
     border-width: thin;
     border-color: gray;
     display: inline-block;
     text-align: center;
     box-shadow: 5px 5px 5px lightgrey;
-    margin-bottom: 5%;
+    margin-top: 0;
+    margin-bottom: 3%;
 }
 
 .project-panel-left {
     margin-left: 5%;
     margin-right: 3%;
-    margin-bottom: 5%;
 }
 
 .project-panel-right {
@@ -94,14 +93,14 @@ body {
     margin-right: 5%;
 }
 
-.project-panel h3 {
-    padding: 0;
-    margin: 0;   
-}
-
 .project-panel a, a:hover, a:visited, a:active {
     color:inherit;
     text-decoration: none;
+}
+
+.project-panel h3 {
+    padding: 0;
+    margin: 0;   
 }
 
 .project-panel p {
