@@ -3,14 +3,6 @@ body {
     width: 100%;
 }
 
-.sidebar {
-    height: 100vh;
-    color: white;
-    position: fixed;
-    top: 0em;
-    left: 0em;
-}
-
 .content {
     height:150vh;
     padding-left: 30px;
@@ -34,26 +26,29 @@ body {
     margin-top: 15%;
 }
 
-.animate-area-left	{ 
-	background-image: url('./img/bg_clouds.png');
-	background-position: top right;
-	background-repeat: repeat-x;
-
-	animation: animatedBackground 45s linear infinite;
+.align-left {
+    top: 0em;
+    left: 0em;
 }
 
-.animate-area-right	{ 
-    height: 100vh;
-	background-image: url('./img/bg_clouds.png');
-	background-position: top right;
-	background-repeat: repeat-x;
-
+.align-right {
     position: fixed;
     top: 0em;
     right: 0em;
+}
+
+.animate-area	{
+    color: white;
+    height: 100vh;
+    position: fixed;
+
+	background-image: url('./img/bg_clouds.png');
+	background-position: top right;
+	background-repeat: repeat-x;
 
 	animation: animatedBackground 45s linear infinite;
 }
+
 
 @keyframes animatedBackground {
 	from { background-position: 0px 0; }
