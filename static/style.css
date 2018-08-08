@@ -4,8 +4,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Comfortaa', cursive;
+h1, h2, h3, h4, .url-list li {
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
