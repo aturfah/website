@@ -13,11 +13,11 @@ h1 {
 }
 
 .content {
-    height:100vh;
     padding-left: 30px;
     background-color: white;
     position: relative;
     padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .footer {
