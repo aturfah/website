@@ -2,6 +2,7 @@ body {
     background-color: #c0dfed;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
+    height: 100%;
 }
 
 h1, h2, h3, h4, .url-list li {
@@ -18,7 +19,6 @@ h1 {
     position: relative;
     padding-top: 2%;
     padding-bottom: 2%;
-    min-height: 100%;
 }
 
 .footer {
