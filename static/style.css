@@ -93,7 +93,7 @@ h1 {
     padding: 1.5%;
 }
 
-.project-panel a, .project-panel a:hover, .project-panel a:visited, .project-panel a:active, h4 a, h4 a:link, h4 a:hover, h4 a:visited, h4 a:active {
+a, a:hover, a:visited, a:active, a:link {
     color:inherit;
     text-decoration: none;
 }
