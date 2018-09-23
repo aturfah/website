@@ -13,6 +13,10 @@ h1 {
     text-align: center;
 }
 
+.info-block {
+    padding-bottom: 5px;
+}
+
 .content {
     padding-left: 30px;
     background-color: white;
