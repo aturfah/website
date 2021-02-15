@@ -1,5 +1,5 @@
 body {
-    background-color: #c0dfed;
+    background-color: white;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
     height: 100%;
@@ -55,6 +55,7 @@ h1 {
 .animate-area	{
     color: white;
     height: 100vh;
+    background-color: #c0dfed;
     position: fixed;
 
 	background-image: url('./img/bg_clouds.png');
