@@ -1,0 +1,9 @@
+- favicon: fa fa-file
+  link: CV_LINK
+  name: Download CV
+- favicon: fab fa-github
+  link: https://github.com/aturfah
+  name: GitHub
+- favicon: fab fa-linkedin
+  link: https://www.linkedin.com/in/ali-turfah-66b895b1/
+  name: Linkedin

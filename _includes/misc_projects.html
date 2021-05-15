@@ -1,0 +1,18 @@
+<h2>Misc Projects</h2>
+<p>Here are some projects I've worked on for fun, or to learn some new technology.</p>
+{% for item in site.data.projects %}
+{% if item.misc_project == true %}
+<div>
+    <div class="project-panel">
+        <a href="{{item.link}}">
+            <h4>{{item.title}}</h4>
+            <p class="project-description">{{item.description}}
+                {% if item.note %}
+                (<i>{{item.note}}</i>)
+                {% endif %}
+            </p>
+        </a>
+    </div>
+</div>
+{% endif %}
+{% endfor %}

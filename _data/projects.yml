@@ -1,0 +1,54 @@
+- title: A neuro-symbolic method for understanding free-text medical evidence
+  link: https://doi.org/10.1093/jamia/ocab077
+  short_title: Medical Evidence Dependency-informed Attention
+  short_description: Neuro-symbolic variant of Multi-head self-attention.
+  description: Medical evidence Dependency (MD)–informed attention, an extension of Multi-head self-attention that incorporates medical domain knowledge into a neural model.
+  note: Published in JAMIA
+  misc_project: false
+  highlight_project: true
+- title: Model Design for Deep Learning in Practice
+  link: https://github.com/aturfah/5242_final_project/blob/main/5242_final_report.pdf
+  description: Report on the effect of architecture, initialization, optimization, and regularization choices on classification performance. Testing against the MNIST, Fashion-MNIST, Kuzushiji-MNIST, and Kuzushiji-49 datasets.
+  note: Final project for STAT 5242
+  misc_project: false
+- title: Poke2Vec
+  link: https://aturfah.github.io/poke2vec/
+  description: Pok&eacute;mon vector embeddings generated via Word2Vec model on a simulated metagame.
+  misc_project: true
+  highlight_project: true
+- title: DataFest 2019
+  link: https://github.com/aturfah/tbd-datafest-2019
+  description: Random forests to assess the influence of religious and sociopolitical factors on the 2016 presidential election.
+  misc_project: false
+  note: 1st place at Datafest 2019
+- title: Etrian Odyssey 2 Untold Skill Simulator
+  link: https://aturfah.github.io/eo2u-skillsim
+  description: Flask-based skill tree visualization and planning tool for Etrian Odyssey 2 Untold.
+  misc_project: true
+- title: Etrian Odyssey Nexus Compendiums
+  link: https://aturfah.github.io/eon-codex
+  description: More readily searchable version of the Item and Monster lists from Etrain Odyssey Nexus.
+  misc_project: true
+- title: Etrian Odyssey Untold Skill Simulator
+  link: https://aturfah.github.io/eou-skillsim
+  description: Flask-based skill tree visualization and planning tool for Etrian Odyssey Untold.
+  misc_project: true
+- title: PS!ABM
+  link: https://github.com/aturfah/cmplxsys530-final
+  description: Agent-based modelling framework for competitive Pok&eacute;mon battles.
+  note: Final project for CMPLXSYS 530
+  misc_project: false
+  highlight_project: true
+- title: EOV Party Builder
+  link: https://aturfah.github.io/eov-party-builder
+  description: Javascript-based party planning tool for Etrian Odyssey V.
+  misc_project: true
+- title: Smogon Usage Stats Visualizer
+  link: https://github.com/aturfah/smogon-usage-stats
+  description: Flask-based web application to visualize usage trends in online Pok&eacute;mon battles.
+  misc_project: true
+- title: ProtoCat
+  link: https://github.com/igemsoftware2017/Michigan_Software_2017_ProtoCat
+  description: Open source online catalog to store and share lab protocols.
+  note: Best Software Award at iGEM 2016
+  misc_project: true

@@ -1,0 +1,69 @@
+<div>
+    <!-- <div>
+        <h1>Ali Turfah</h1><hr />
+    </div> -->
+
+    <div id="about_section" class="info-block">
+        <h2>About</h2>
+        <p>
+            Hello! My name is Ali Turfah, I am an incoming PhD student in the Biostatistics Department at the University of Michigan. I am interested in the statistical and computational problems that arise in biological and healthcare data, such as models to handle high-dimensional data and the interpretation of "black box" models.
+        </p>
+        <p>
+            I did my undergraduate studies in Data Science through the University of Michigan's College of Engineering, after which I worked for a year as a Data Scientist at <a href="https://algo.ai">Algo</a>, a start-up in Troy, MI. This past winter, I completed an MA in Statistics at Columbia University. Right now I'm working with <a href="http://people.dbmi.columbia.edu/~chw7007/">Dr. Chunhua Weng</a>'s research group on projects related to medical literature mining and evidence extraction.
+        </p>
+    </div>
+
+    <div id="projects_section" class="info-block">
+        <h2>Overview</h2>
+        <p>Below are some projects I'm especially fond of. For a complete list of projects I've worked on, please check out the <a href="/projects">Projects</a> page.</p>
+        <ul>
+            {% for item in site.data.projects %}
+            {% if item.highlight_project == true %}
+            <li>
+                <a class="project-highlights" href="{{item.link}}"><b>
+                    {% if item.short_title %}
+                        {{item.short_title}}:
+                    {% else %}
+                        {{item.title}}:
+                    {% endif %}
+                </b></a>
+                    {% if item.short_description %}
+                        {{item.short_description}}
+                    {% else %}
+                        {{item.description}}
+                    {% endif %}
+                    {% if item.note %}
+                        (<i>{{item.note}}</i>)
+                    {% endif %} 
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="info-block">
+        <h2>Getting in Touch</h2>
+        <p>
+            If you would like to get in touch, I can be reached at &lt;aturfah <i>at</i> gmail <i>dot</i> com&gt;. Additionally, please find my CV below, as well as links to my Github and Linkedin.
+        </p>
+        <div class="row">
+            <div class="col-xs-12 mainpage-links-container">
+              {% for link in site.data.footer_links %}
+                  <div class="mainpage-links">
+                      {% if link.link == "CV_LINK" %}
+                          <a href="{{site.data.info.resume_link}}">
+                      {% else %}
+                          <a href="{{link.link}}">
+                      {% endif %}
+                      {{link.name}} <i class="{{link.favicon}}"></i></a></h4>
+                  </div>
+              {% endfor %}
+          </div>
+  
+          <br/>
+      </div>
+  
+    </div>
+
+
+</div>

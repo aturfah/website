@@ -1,0 +1,26 @@
+<div class="navcol">
+<div class="col-xs-3"></div>
+<div class="col-xs-3 animate-area align-left">
+    <a href="/"><img class="img-circle" src="/assets/images/headshot.png"></a>
+    <ul class="url-list">
+      {% for item in site.data.navigation %}
+        <li>
+          <a href="{{ item.link }}"">{{ item.name }}</a>
+        </li>
+      {% endfor %}
+      <li><a href="{{ site.data.info.resume_link }}">CV</a></li>
+    </ul>
+
+    <!-- <div class="row">
+        <div class="footer col-xs-12">
+          {% for link in site.data.footer_links %}
+            <a href="{{link.link}}">{{link.name}} <i class="fab {{link.favicon}}"></i></a>
+            {% if forloop.index != forloop.length %} | {% endif %}
+          {% endfor %}
+            <br/>
+            <!-- <a href="https://davidwalsh.name/background-animation-css">Background Image Source</a><br/> -->
+        </div>
+    </div> -->
+
+</div>
+</div>
