@@ -10,6 +10,10 @@
   link: https://github.com/aturfah/5242_final_project/blob/main/5242_final_report.pdf
   description: Report on the effect of architecture, initialization, optimization, and regularization choices on classification performance. Testing against the MNIST, Fashion-MNIST, Kuzushiji-MNIST, and Kuzushiji-49 datasets.
   note: Final project for STAT 5242
+- title: Country-level Coronavirus Daily Forecasts
+  link: /assets/misc/5232_final_report.pdf
+  description: Report on using an Quasi-Poisson GLM to predict the Coronavirus daily death rate at a country level.
+  note: Final project for STAT 5232
   misc_project: false
 - title: Poke2Vec
   link: https://aturfah.github.io/poke2vec/
