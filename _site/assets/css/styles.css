@@ -1,48 +1,120 @@
-body { background-color: white; width: 100%; font-family: 'Open Sans', sans-serif; height: 100%; }
+body {
+  background-color: white;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  height: 100%; }
 
-h1, h2, h3, h4, .url-list li { font-family: 'Ubuntu', sans-serif; }
+h1, h2, h3, h4, .url-list li {
+  font-family: 'Ubuntu', sans-serif; }
 
-h1 { text-align: center; }
+h1 {
+  text-align: center; }
 
-.url-list a, .url-list a:hover, .url-list a:visited, .url-list a:active, .url-list a:link, #cv_section a, #cv_section a:hover, #cv_section a:visited, #cv_section a:active, #cv_section a:link, .project-panel a, .project-panel a:hover, .project-panel a:visited, .project-panel a:active, .project-panel a:link, .footer a, .footer a:hover, .footer a:visited, .footer a:active, .footer a:link { color: inherit; text-decoration: none; }
+.url-list a, .url-list a:hover, .url-list a:visited, .url-list a:active, .url-list a:link,
+#cv_section a, #cv_section a:hover, #cv_section a:visited, #cv_section a:active, #cv_section a:link,
+.project-panel a, .project-panel a:hover, .project-panel a:visited, .project-panel a:active, .project-panel a:link,
+.footer a, .footer a:hover, .footer a:visited, .footer a:active, .footer a:link {
+  color: inherit;
+  text-decoration: none; }
 
-.mainpage-links-container { text-align: center; }
+.mainpage-links-container {
+  text-align: center; }
 
-.mainpage-links { display: inline-block; margin-left: 8px; margin-right: 8px; font-size: 16pt; }
+.mainpage-links {
+  display: inline-block;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 16pt; }
 
-.info-block { padding-bottom: 5px; }
+.info-block {
+  padding-bottom: 5px; }
 
-.info-block p { font-size: 13pt; }
+.info-block p {
+  font-size: 13pt; }
 
-.info-block li { font-size: 11pt; }
+.info-block li {
+  font-size: 11pt; }
 
-p.project-description { font-size: 10pt; }
+p.project-description {
+  font-size: 10pt; }
 
-.content { padding-left: 30px; background-color: white; position: relative; padding-top: 2%; padding-bottom: 2%; }
+.content {
+  padding-left: 30px;
+  background-color: white;
+  position: relative;
+  padding-top: 2%;
+  padding-bottom: 2%; }
 
-.navcol { font-size: 14pt; }
+.navcol {
+  font-size: 14pt; }
 
-.footer { text-align: center; position: absolute; bottom: 0; padding-bottom: 5px; font-size: 13pt; }
+.footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 5px;
+  font-size: 13pt; }
 
-.img-circle { border-radius: 50%; width: 70%; margin: auto; display: inline-block; display: block; margin-top: 7.5%; }
+.img-circle {
+  border-radius: 50%;
+  width: 70%;
+  margin: auto;
+  display: inline-block;
+  display: block;
+  margin-top: 7.5%; }
 
-.align-left { top: 0em; left: 0em; }
+.align-left {
+  top: 0em;
+  left: 0em; }
 
-.align-right { position: fixed; top: 0em; right: 0em; }
+.align-right {
+  position: fixed;
+  top: 0em;
+  right: 0em; }
 
-.animate-area { color: white; height: 100vh; background-color: #c0dfed; position: fixed; background-image: url("/assets/images/bg_clouds.png"); background-position: top right; background-repeat: repeat-x; animation: animatedBackground 45s linear infinite; }
+.animate-area {
+  color: white;
+  height: 100vh;
+  background-color: #c0dfed;
+  position: fixed;
+  background-image: url("/assets/images/bg_clouds.png");
+  background-position: top right;
+  background-repeat: repeat-x;
+  animation: animatedBackground 45s linear infinite; }
 
-@keyframes animatedBackground { from { background-position: 0px 0; }
-  to { background-position: -2247px 0; } }
+@keyframes animatedBackground {
+  from {
+    background-position: 0px 0; }
+  to {
+    background-position: -2247px 0; } }
+.url-list {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 5px; }
 
-.url-list { text-align: center; list-style-type: none; margin: 0; padding: 0; margin-top: 5px; }
+.url-list li {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 18pt; }
 
-.url-list li { display: block; margin: 0; padding: 0; font-size: 18pt; }
+.project-panel {
+  border-style: solid;
+  border-width: thin;
+  border-color: gray;
+  display: block;
+  box-shadow: 5px 5px 5px lightgrey;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 10px; }
 
-.project-panel { border-style: solid; border-width: thin; border-color: gray; display: block; box-shadow: 5px 5px 5px lightgrey; margin-top: 20px; margin-right: 20px; padding: 10px; }
+.project-panel h4 {
+  padding: 0;
+  margin: 0; }
 
-.project-panel h4 { padding: 0; margin: 0; }
-
-.project-panel p { padding: 0; margin: 0; font-size: 11pt; }
-
-/*# sourceMappingURL=styles.css.map */
+.project-panel p {
+  padding: 0;
+  margin: 0;
+  font-size: 11pt; }
