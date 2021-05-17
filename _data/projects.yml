@@ -39,7 +39,7 @@
   misc_project: true
 - title: PS!ABM
   link: https://github.com/aturfah/cmplxsys530-final
-  description: Agent-based modelling framework for competitive Pok&eacute;mon battles.
+  description: Agent-based modelling framework to simulate competitive Pok&eacute;mon battles.
   note: Final project for CMPLXSYS 530
   misc_project: false
   highlight_project: true
