@@ -11,6 +11,11 @@
   description: Report on the effect of architecture, initialization, optimization, and regularization choices on classification performance. Testing against the MNIST, Fashion-MNIST, Kuzushiji-MNIST, and Kuzushiji-49 datasets.
   note: Final project for STAT 5242
   misc_project: false
+- title: Country-level Coronavirus Daily Forecasts
+  link: /assets/misc/5232_final_report.pdf
+  description: Report on using an Quasi-Poisson GLM to predict the Coronavirus daily death rate at a country level.
+  note: Final project for STAT 5232
+  misc_project: false
 - title: Poke2Vec
   link: https://aturfah.github.io/poke2vec/
   description: Pok&eacute;mon vector embeddings generated via Word2Vec model on a simulated metagame.
@@ -48,7 +53,7 @@
   description: Flask-based web application to visualize usage trends in online Pok&eacute;mon battles.
   misc_project: true
 - title: ProtoCat
-  link: https://github.com/igemsoftware2017/Michigan_Software_2017_ProtoCat
+  link: https://2017.igem.org/Team:Michigan_Software
   description: Open source online catalog to store and share lab protocols.
   note: Best Software Award at iGEM 2016
   misc_project: true
